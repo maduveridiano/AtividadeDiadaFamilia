@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .Header{
@@ -24,14 +26,16 @@
     display: flex;
     flex-direction:column;
     align-items: justify;
-    font-size: 20px;
     color: black;
+    font-size: 15px;
     padding: 0 20px;
-}
+    align-content: space-between;
+  }
 
 .ImgGaleria{
     width: 350px;
     height: 350px;
-    justify-content:space-around;
     padding: 0 20px;
-}
+    object-fit: cover;
+    justify-items: center;
+  }
